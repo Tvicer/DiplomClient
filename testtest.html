@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Тестирование</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style type="text/css">
+    #centerLayer {
+     margin-left: 30%;
+     width: 57%;
+     background: #fc0;
+     padding: 15px;
+     position: fixed;
+      top: 5%;
+    }
+   </style>
+   <style>
+    .green-button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        
+    }
+
+    .green-button:hover {
+        background-color: #45a049;
+    }
+</style>
+ </head>
+ <body>
+    <div class="col-xxl-8 my-3 mx-3">
+        <button class="btn btn-light rounded-pill px-1 col-xxl-1" id="psyBackBtn" type="button" onclick="location.href='http://127.0.0.1:5500/psychologist.html'">Назад</button>
+    </div>
+    <div>
+        <div style="margin-left: 4%; margin-top: 2%;">
+            <p>Введите ФИО ребёнка</p>
+            <textarea id="nameTxt" cols="30" rows="1"></textarea>
+        </div>
+        <div style="margin-left: 4%; margin-top: 2%;">
+            <p>Введите возраст ребёнка</p>
+            <textarea  id="ageTxt" cols="30" rows="1"></textarea>
+        </div>
+        <div style="margin-left: 4%; margin-top: 2%;">
+            <p>Введите ФИО родителя</p>
+            <textarea cols="30" rows="1"></textarea>
+        </div>
+        <div style="margin-left: 4%; margin-top: 2%;">
+            <p>Введите номер телефона родителя</p>
+            <textarea cols="30" rows="1"></textarea>
+        </div>
+    </div>
+    <div id="centerLayer">
+        <div class="container">
+            <div>
+                <img src="img/pic2.png" height="500" style="margin-left: 0%"/>
+                <img src="img/pic1.png" height="500" style="margin-left: 5%"/>
+                <img src="img/pic3.png" height="500" style="margin-left: 5%"/>
+            </div>
+            <div style="margin-top: 2%">
+                <textarea maxlength="1" cols="1" rows="1" style="margin-left: 13%"></textarea>
+                <textarea maxlength="1" cols="1" rows="1" style="margin-left: 31%"></textarea>
+                <textarea maxlength="1" cols="1" rows="1" style="margin-left: 31%"></textarea>
+            </div>
+        </div>
+        <div style="margin-left: 4%; margin-top: 2%;">
+          <textarea cols="100" rows="5" id="tell1"></textarea>
+      </div>
+    </div>
+    <div style="margin-left: 6%;">
+    <button class="btn" id="record_btn" style="margin-left: 1%;">
+        <img src="img/stop.png" height="100" alt="record" id="record_img"/>
+      </button>
+      <section id="record_box">
+        <h4>Записать голос</h4>
+        <div id="audio_box"></div>
+        <div class="action_box">
+          <button class="btn btn_success" id="save_btn">Save</button>
+          <button class="btn btn_danger" id="remove_btn">Remove</button>
+        </div>
+      </section>
+    </div>
+    <div style="margin-left: 6%;">
+        <a href="#" class="green-button" id="sendBtn">Отправить</a>
+    </div>
+    <div style="margin-left: 7%; margin-top: 3%;">
+        <textarea cols="20" rows="2" id="answer"></textarea>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+ </body>
+</html>

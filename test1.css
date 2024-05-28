@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel {
+    width: 20%;
+    background-color: #68a5ff;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-panel input[type="text"] {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.right-panel {
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.image-section {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #e6f7ff;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-section .image-block {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-section .image-block img {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.image-section .image-block input[type="text"] {
+    width: 15%;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.calc-section input[type="text"] {
+    width: 15%;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    height: 250px;
+    border: none;
+    margin-bottom: 15%;
+}
+
+.input-section .input-textarea {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.calc-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    height: 150px;
+    border: none;
+    margin-bottom: 10%;
+}
+
+.input-section .calc-textarea {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #0d6dfd; 
+    color: white;
+    border: 2px solid #0d6dfd;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+button:hover {
+    padding: 15px 30px;
+    background-color: #0026ff; 
+    color: white;
+    border: 2px solid #0026ff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.calc-button {
+    padding: 15px 30px;
+    background-color: #0d6dfd; 
+    color: white;
+    border: 2px solid #0d6dfd;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.calc-button:hover {
+    padding: 15px 30px;
+    background-color: #0026ff; 
+    color: white;
+    border: 2px solid #0026ff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.back-button {
+    padding: 15px 30px;
+    background-color: white; 
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.back-button:hover {
+    padding: 15px 30px;
+    background-color: #d8e7ff; 
+    color: black;
+    border: 2px solid #d8e7ff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
