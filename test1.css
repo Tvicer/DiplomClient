@@ -58,7 +58,7 @@ body {
 }
 
 .image-section .image-block {
-    width: calc(33.33% - 10px);
+    width: 100%;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .image-section .image-block input[type="text"] {
-    width: 15%;
+    width: 5%;
     margin-top: 30px;
     padding: 10px;
     border: 2px solid black;

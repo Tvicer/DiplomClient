@@ -19,15 +19,7 @@
         <div class="right-panel">
             <div class="section image-section">
                 <div class="image-block">
-                    <img src="img/pic2.png" alt="Image">
-                    <input type="text" maxlength="1" >
-                </div>
-                <div class="image-block">
-                    <img src="img/pic1.png" alt="Image">
-                    <input type="text" maxlength="1" >
-                </div>
-                <div class="image-block">
-                    <img src="img/pic3.png" alt="Image">
+                    <img src="img/Mc.png" alt="Image">
                     <input type="text" maxlength="1" >
                 </div>
             </div>
@@ -37,15 +29,7 @@
             </div>
             <div class="section image-section">
                 <div class="image-block">
-                    <img src="img/pic2.png" alt="Image">
-                    <input type="text" maxlength="1" >
-                </div>
-                <div class="image-block">
-                    <img src="img/pic1.png" alt="Image">
-                    <input type="text" maxlength="1" >
-                </div>
-                <div class="image-block">
-                    <img src="img/pic3.png" alt="Image">
+                    <img src="img/school.png" alt="Image">
                     <input type="text" maxlength="1" >
                 </div>
             </div>
@@ -55,15 +39,7 @@
             </div>
             <div class="section image-section">
                 <div class="image-block">
-                    <img src="img/pic2.png" alt="Image">
-                    <input type="text" maxlength="1" >
-                </div>
-                <div class="image-block">
-                    <img src="img/pic1.png" alt="Image">
-                    <input type="text" maxlength="1" >
-                </div>
-                <div class="image-block">
-                    <img src="img/pic3.png" alt="Image">
+                    <img src="img/nlo.png" alt="Image">
                     <input type="text" maxlength="1" >
                 </div>
             </div>
