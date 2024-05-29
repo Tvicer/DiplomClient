@@ -9,7 +9,7 @@ document.getElementById('sendButton').addEventListener('click', function() {
         tell3: tell3 
     };
 
-    var url = 'http://127.0.0.1:8080/nlp/send'
+    var url = 'http://127.0.0.1:8080/nlp/sendToNlp'
     var result
 
     result = fetch(url, {
@@ -27,7 +27,7 @@ document.getElementById('sendButton').addEventListener('click', function() {
         }
         console.log(response.json().then((value) => {
             console.log(value.answer);
-            document.getElementById('answer').value = value.answer
+            document.getElementById('resultText').value = value.answer
           })
         )
     })
@@ -36,6 +36,45 @@ document.getElementById('sendButton').addEventListener('click', function() {
     });
 });
 
+document.getElementById('endButton').addEventListener('click', function() {
+    var fio = document.getElementById('fio').value;
+    var childAge = document.getElementById('childAge').value;
+    var parentAge = document.getElementById('parentAge').value;
+    var telephone = document.getElementById('telephone').value;
+    var address = document.getElementById('address').value;
+    var result = document.getElementById('resultText').value;
+
+    var data = { 
+        fio: fio,
+        childAge: childAge,
+        parentAge: parentAge,
+        telephone: telephone,
+        address: address,
+        result: result
+    };
+
+    var url = 'http://127.0.0.1:8080/nlp/sendToDb'
+    var result
+
+    result = fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+    .then(response => {
+        if (response.ok) {
+            console.log('Данные успешно отправлены!');
+            window.location.href = "/psychologist.html";
+        } else {
+            console.error('Ошибка при отправке данных.');
+        }
+    })
+    .catch(error => {
+        console.error('Произошла ошибка:', error);
+    });
+});
 
 
 

@@ -10,11 +10,11 @@
     <div class="container">
         <div class="left-panel">
             <button class="back-button" id="psyBackBtn" type="button" onclick="location.href='http://127.0.0.1:5500/psychologist.html'">Назад</button>
-            <input type="text" placeholder="ФИО ребёнка">
-            <input type="text" placeholder="Возраст ребёнка">
-            <input type="text" placeholder="ФИО родителя">
-            <input type="text" placeholder="Номер телефона родителя">
-            <input type="text" placeholder="Домашний адрес">
+            <input type="text" placeholder="ФИО ребёнка" id="fio">
+            <input type="text" placeholder="Возраст ребёнка" id="childAge">
+            <input type="text" placeholder="ФИО родителя" id="parentAge">
+            <input type="text" placeholder="Номер телефона родителя" id="telephone">
+            <input type="text" placeholder="Домашний адрес" id="address">
         </div>
         <div class="right-panel">
             <div class="section image-section">
@@ -75,7 +75,7 @@
                 <button class="calc-button" id="sendButton">Рассчитать балл</button>
                 <input type="text" id="resultText">
             </div>
-            <button>Завершить тестирование</button>
+            <button id="endButton">Завершить тестирование</button>
         </div>
     </div>
     <script src="main.js"></script>
