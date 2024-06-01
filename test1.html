@@ -20,7 +20,6 @@
             <div class="section image-section">
                 <div class="image-block">
                     <img src="img/Mc.png" alt="Image">
-                    <input type="text" maxlength="1" >
                 </div>
             </div>
             <div class="section input-section">
@@ -30,7 +29,6 @@
             <div class="section image-section">
                 <div class="image-block">
                     <img src="img/school.png" alt="Image">
-                    <input type="text" maxlength="1" >
                 </div>
             </div>
             <div class="section input-section">
@@ -40,7 +38,6 @@
             <div class="section image-section">
                 <div class="image-block">
                     <img src="img/nlo.png" alt="Image">
-                    <input type="text" maxlength="1" >
                 </div>
             </div>
             <div class="section input-section">
